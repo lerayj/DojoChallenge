@@ -36,13 +36,11 @@ const store = new Vuex.Store({
         request(BASE_URL + '/heroes', (err, res, body) => {
 			store.commit('setHeroesImg', JSON.parse(body))
 			store.commit('isLoading', false);
-			console.log("HERE: ", this.state.heroes[0].id)
 			dispatch('focusHero', this.state.heroes[0].id)
         })
     },
     focusHero(context, idHero){
     	let hero = _.find(this.state.heroes, e => e.id == idHero)
-    	console.log(hero);
     	store.commit('setCurrentHero', hero);
     }
   }

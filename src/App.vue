@@ -6,7 +6,7 @@
       v-model="drawer"
       app
     >
-    <div v-if="loading">toto</div>
+    <div v-if="loading">Loading...</div>
     <ListHeroes v-else :heroes="heroes"/>
     </v-navigation-drawer>
     <v-toolbar app fixed clipped-left>

@@ -1,5 +1,5 @@
 <template>
-<div class="bg" :style="{ 'background-image': 'url(' + heroesBg + ')' }">TOTO</div>
+<div class="bg" :style="{ 'background-image': 'url(' + heroesBg + ')' }"></div>
 </template>
 
 <script>
