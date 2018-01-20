@@ -29,7 +29,7 @@ export default {
   methods: {
     searchHeroes(val){
       if(this.search != '')
-        return _.filter(this.heroes, hero => hero.attributes.name.startsWith(this.search))          
+        return _.filter(this.heroes, hero => hero.attributes.name.toLowerCase().startsWith(this.search.toLowerCase()))    
       else
         return this.heroes
     },
