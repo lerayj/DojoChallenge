@@ -10,7 +10,8 @@ import lodash from 'lodash'
 Vue.use(Vuetify)
 Vue.use(Vuex)
 
-const BASE_URL = "http://localhost:5000";
+//const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://dojo-challenge-lerayjulien.herokuapp.com/";
 
 const store = new Vuex.Store({
   state: {
