@@ -13,3 +13,5 @@ Used: Vue.js & VueX (State Management)
 ## Infos
 Heroes filtering OK
 No database used, no need so far.
+
+Quick&Dirty script `imagesFetcher.js` to fetch images should be improve 
